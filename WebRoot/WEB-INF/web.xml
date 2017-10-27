@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<error-page>
+		<error-code>500</error-code>
+		<location>/error/500.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error/404.jsp</location>
+	</error-page>
+  <servlet>
+    <servlet-name>AddCustServlet</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListCustServlet</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustInfoServlet</servlet-name>
+    <servlet-class>com.itheima.web.CustInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustServlet</servlet-name>
+    <servlet-class>com.itheima.web.UpdateCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelCustServlet</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BatchDelServlet</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindCustByCondServlet</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PageCustServlet</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindgdServlet</servlet-name>
+    <servlet-class>com.itheima.web.FindgdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet0</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet0</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet0</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet0</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet0</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustInfoServlet0</servlet-name>
+    <servlet-class>com.itheima.web.CustInfoServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet1</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet3</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet3</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet3</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet3</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet3</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet3</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet4</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet5</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet4</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet5</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet4</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet4</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet4</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet4</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet0</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet5</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet5</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet5</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet5</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet6</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet6</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustInfoServlet6</servlet-name>
+    <servlet-class>com.itheima.web.CustInfoServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet6</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet6</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet6</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet6</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustServlet7</servlet-name>
+    <servlet-class>com.itheima.web.AddCustServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BatchDelServlet7</servlet-name>
+    <servlet-class>com.itheima.web.BatchDelServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCustServlet7</servlet-name>
+    <servlet-class>com.itheima.web.DelCustServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCustByCondServlet7</servlet-name>
+    <servlet-class>com.itheima.web.FindCustByCondServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCustServlet7</servlet-name>
+    <servlet-class>com.itheima.web.ListCustServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageCustServlet7</servlet-name>
+    <servlet-class>com.itheima.web.PageCustServlet7</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddCustServlet</servlet-name>
+    <url-pattern>/servlet/AddCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet</servlet-name>
+    <url-pattern>/servlet/ListCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustInfoServlet</servlet-name>
+    <url-pattern>/servlet/CustInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustServlet</servlet-name>
+    <url-pattern>/servlet/UpdateCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet</servlet-name>
+    <url-pattern>/servlet/DelCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet</servlet-name>
+    <url-pattern>/servlet/PageCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindgdServlet</servlet-name>
+    <url-pattern>/servlet/FindgdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet0</servlet-name>
+    <url-pattern>/servlet/AddCustServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet0</servlet-name>
+    <url-pattern>/servlet/ListCustServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet0</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet0</servlet-name>
+    <url-pattern>/servlet/DelCustServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet0</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustInfoServlet0</servlet-name>
+    <url-pattern>/servlet/CustInfoServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet1</servlet-name>
+    <url-pattern>/servlet/AddCustServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet3</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet3</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet3</servlet-name>
+    <url-pattern>/servlet/ListCustServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet3</servlet-name>
+    <url-pattern>/servlet/PageCustServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet3</servlet-name>
+    <url-pattern>/servlet/DelCustServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet3</servlet-name>
+    <url-pattern>/servlet/AddCustServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet4</servlet-name>
+    <url-pattern>/servlet/AddCustServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet5</servlet-name>
+    <url-pattern>/servlet/AddCustServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet4</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet5</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet4</servlet-name>
+    <url-pattern>/servlet/DelCustServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet4</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet4</servlet-name>
+    <url-pattern>/servlet/ListCustServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet4</servlet-name>
+    <url-pattern>/servlet/PageCustServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet0</servlet-name>
+    <url-pattern>/servlet/PageCustServlet0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet5</servlet-name>
+    <url-pattern>/servlet/DelCustServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet5</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet5</servlet-name>
+    <url-pattern>/servlet/ListCustServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet5</servlet-name>
+    <url-pattern>/servlet/PageCustServlet5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet6</servlet-name>
+    <url-pattern>/servlet/AddCustServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet6</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustInfoServlet6</servlet-name>
+    <url-pattern>/servlet/CustInfoServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet6</servlet-name>
+    <url-pattern>/servlet/DelCustServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet6</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet6</servlet-name>
+    <url-pattern>/servlet/ListCustServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet6</servlet-name>
+    <url-pattern>/servlet/PageCustServlet6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustServlet7</servlet-name>
+    <url-pattern>/servlet/AddCustServlet7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet7</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet7</servlet-name>
+    <url-pattern>/servlet/DelCustServlet7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet7</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCustServlet7</servlet-name>
+    <url-pattern>/servlet/ListCustServlet7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet7</servlet-name>
+    <url-pattern>/servlet/PageCustServlet7</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
