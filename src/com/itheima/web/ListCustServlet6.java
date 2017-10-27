@@ -22,7 +22,7 @@ public class ListCustServlet6 extends HttpServlet {
 //		List<Cust> list = service.getAllCust();
 //		//2.将查找到的信息存入request域,请求转发到listCust.jsp页面进行展示
 //		request.setAttribute("list", list);
-		request.getRequestDispatcher("/listCust.jsp").forward(request, response);
+		request.getRequestDispatcher("/listCust6.jsp").forward(request, response);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
